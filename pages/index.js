@@ -1,3 +1,4 @@
+import Confirm from "../components/Confirm";
 import { LocationSelector } from "../components/LocationSelector";
 import Map from "../components/Map";
 import NavBar from "../components/NavBar";
@@ -19,7 +20,7 @@ export default function Home() {
       <div className={style.rideRequestContainer}>
         <div className={style.rideRequest}>
           <LocationSelector/>
-          {/* confirm ride */}
+         <Confirm/>
         </div>
       </div>
     </div>
