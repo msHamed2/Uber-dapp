@@ -5,7 +5,19 @@ import uberBlack from "../assets/rides/uberBlack.png";
 import uberBlackSuv from "../assets/rides/uberBlackSuv.png";
 import uberSelect from "../assets/rides/uberSelect.png";
 import Image from "next/Image";
-const style = {};
+const style = {
+  wrapper: `h-full flex flex-col`,
+  title: `text-gray-500 text-center text-xs py-2 border-b`,
+  carList: `flex flex-col flex-1 overflow-scroll`,
+  car: `flex p-3 m-2 items-center border-2 border-white`,
+  selectedCar: `border-2 border-black flex p-3 m-2 items-center`,
+  carImage: `h-14`,
+  carDetails: `ml-2 flex-1`,
+  service: `font-medium`,
+  time: `text-xs text-blue-500`,
+  priceContainer: `flex items-center`,
+  price: `mr-[-0.8rem]`,
+}
 const carList = [
   {
     name: "UberX",
@@ -25,12 +37,12 @@ const carList = [
   {
     name: "UberSelect",
     iconUrl: uberSelect,
-    priceMultiplier: 2,
+    priceMultiplier: 2.5,
   },
   {
     name: "UberXL",
     iconUrl: uberXL,
-    priceMultiplier: 2,
+    priceMultiplier: 3,
   },
 ];
 const RideSelector = () => {
