@@ -1,5 +1,5 @@
 import Confirm from "../components/Confirm";
-import { LocationSelector } from "../components/LocationSelector";
+import {LocationSelector} from '../components/LocationSelector'
 import Map from "../components/Map";
 import NavBar from "../components/NavBar";
 

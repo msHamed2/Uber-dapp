@@ -17,7 +17,8 @@ const style = {
   time: `text-xs text-blue-500`,
   priceContainer: `flex items-center`,
   price: `mr-[-0.8rem]`,
-}
+};
+const basePrice=1542;
 const carList = [
   {
     name: "UberX",
@@ -58,6 +59,15 @@ const RideSelector = () => {
               height={50}
               width={50}
             />
+            <div className={style.carDetails}>
+              <div className={style.service}>{car.name}</div>
+              <div className={style.time}>5 min away</div>
+            </div>
+            <div className={style.priceContainer}>
+              <div className={style.price}>
+                {((basePrice /10 **5)* car.priceMultiplier).toFixed(5)}
+              </div>
+            </div>
           </div>
         ))}
       </div>

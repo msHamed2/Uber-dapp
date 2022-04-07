@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/Image";
 import avatar from "../Temp/userimg.jpg";
 import { BsPerson } from "react-icons/bs";
 const style = {
