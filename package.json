@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/client": "^3.3.0",
     "mapbox-gl": "^2.7.0",
     "next": "12.1.0",
     "react": "17.0.2",
