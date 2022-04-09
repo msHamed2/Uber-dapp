@@ -2,12 +2,18 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+First, hit into project  :
 
 ```bash
-npm run dev
+ npm install
 # or
-yarn dev
+yarn install
+```
+second, run hit into sanitymedum using :
+
+```bash
+cd sanitymedum && npm install
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
